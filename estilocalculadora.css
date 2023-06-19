@@ -1,0 +1,106 @@
+#background{background: url(imagens/548279.jpg);}
+#corpo {
+    height: 500px; 
+    width: 350px; 
+    background-color: #040333;
+    position: relative; top: 1px; left: 1px;
+    border-radius: 10px;
+}
+#sombra {
+    height: 505px; 
+    width: 355px; 
+    background-color: #12001F;
+    position: absolute; left: 38%; right: 40%; top: 10%;
+    border-radius: 10px;
+}
+.visor {
+    width: 300px;
+    height: 50px;
+    background-color: #330328;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    position: relative; top: 50px; left: 20px;
+    border-radius: 10px;
+  }
+  
+  #display {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 10px;
+    border-radius: 10px;
+  }
+
+
+    .fileira1 {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 25px;
+        padding-top: 100px;
+      }
+      
+    .fileira1 button {
+        width: calc(33% - 5px); /* Calcula a largura dos botões com uma margem de 10px entre eles */
+        height: 50px;
+        border-radius: 10px;
+        border: #330328 5px solid;
+      }
+      
+      .fileira2 {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 25px;
+        padding-top: 10px;
+      }
+      .fileira2 button {
+        width: calc(25% - 5px); /* Calcula a largura dos botões com uma margem de 10px entre eles */
+        height: 50px;
+        border-radius: 10px;
+        border: #330328 5px solid;
+    }
+    
+      .fileira3 {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 25px;
+        padding-top: 10px;
+      }
+      .fileira3 button {
+        width: calc(25% - 5px); /* Calcula a largura dos botões com uma margem de 10px entre eles */
+        height: 50px;
+        border-radius: 10px;
+        border: #330328 5px solid;
+    }
+      .fileira4 {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 25px;
+        padding-top: 10px;
+      }
+      .fileira4 button {
+        width: calc(25% - 5px); /* Calcula a largura dos botões com uma margem de 10px entre eles */
+        height: 50px;
+        border-radius: 10px;
+        border: #330328 5px solid;
+    }
+      .fileira5 {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 25px;
+        padding-top: 10px;
+      }
+      .fileira5 button {
+        width: calc(33% - 5px); /* Calcula a largura dos botões com uma margem de 10px entre eles */
+        height: 50px;
+        border-radius: 10px;
+        border: #330328 5px solid;
+    }
